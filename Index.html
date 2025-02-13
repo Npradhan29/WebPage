@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img id="main-image" src="product-main.jpg" alt="Product">
+                <div class="thumbnail-container">
+                    <img class="thumbnail" src="product-thumb1.jpg" alt="thumb1">
+                    <img class="thumbnail" src="product-thumb2.jpg" alt="thumb2">
+                    <img class="thumbnail" src="product-thumb3.jpg" alt="thumb3">
+                    <img class="thumbnail" src="product-thumb4.jpg" alt="thumb4">
+                </div>
+            </div>
+            <div class="product-details">
+                <h2>Embrace Sideboard</h2>
+                <p class="price">$12999.00 <span class="discount">35% Off</span></p>
+                <p class="original-price">$19999.00</p>
+                
+                <h3>Choose a Color</h3>
+                <div class="colors">
+                    <span class="color-option" data-color="beige" style="background: beige;"></span>
+                    <span class="color-option" data-color="lawngreen" style="background: rgb(105, 220, 170);"></span>
+                    <span class="color-option" data-color="lightblue" style="background: lightblue;"></span>
+                    <span class="color-option" data-color="pink" style="background: pink;"></span>
+                </div>
+                
+
+                <h3>Choose a Size</h3>
+                <div class="sizes">
+                    <button class="size">Small</button>
+                    <button class="size">Medium</button>
+                    <button class="size">Large</button>
+                    <button class="size">Extra Large</button>
+                    <button class="size">XXL</button>
+                </div>
+
+                <div class="quantity">
+                    <button id="decrease">-</button>
+                    <span id="quantity">1</span>
+                    <button id="increase">+</button>
+                </div>
+
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="product-description">
+        <h3>Product Description</h3>
+        <p>
+            The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability.
+        </p>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
